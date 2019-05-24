@@ -9,20 +9,20 @@ There is no GUI; this is a text-based application.
 
 Computer strategy uses a version of the Minimax with alpha-beta pruning.
 
-It was a **pet-project** to try a more generic design of the game.
-It should be reasonably simple to add another variant with more players or dimensions.
+It was a **pet project** to try out a more generic design of the game.
+It should be reasonably simple to other variants with more players or dimensions.
 
 Variants:
 ---------
-- 6-by-7 ConnectFour
-- 7-by-10 ConnectFour
-- 8-by-8 ConnectFour    
+- 6-by-7 Connect Four
+- 7-by-10 Connect Four
+- 8-by-8 Connect Four    
 - 3-by-6 Connect Three          
 - Five-in-a-Row          
 
 Features and Commands:
 ----------------------
-It is possible to play against the computer or another human player.
+It is possible to play against the computer or another human.
 
 - Undo `u`
 - Restart program `r`
@@ -37,7 +37,7 @@ Franck Nassé (original version coded in February 2016)
 
 Build Requirements
 ------------
-- C++ compiler which supports C++11 at least.
+- C++ compiler which supports C++11 at the minimum.
 - [Ncurses library](https://www.gnu.org/software/ncurses/) 
 Example
 > Installation for Centos
@@ -56,9 +56,9 @@ At the project root directory
 - `make clean`
 - `make release`
 
-the program is generated in the `./binary/bin/` folder
+The program is generated in the `./binary/bin/` folder
 
-start the program by typing `./binary/bin/ConnectX`
+Start the program by typing `./binary/bin/ConnectX`
 
 On Windows with MinGW:
 

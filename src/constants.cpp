@@ -8,11 +8,11 @@
 
 namespace Constants {
 extern const char kClassicConnectFour[] = "6-by-7 Connect"
-                                          "Four";
+                                          " Four";
 extern const char kTenBy7ConnectFour[] = "7-by-10 Connect"
-                                          "Four";
+                                          " Four";
 extern const char kEightBy8ConnectFour[] = "8-by-8 Connect"
-                                          "Four";
+                                          " Four";
 extern const char kFiveInRowConnectFour[] = "Five-in-a-Row";
 extern const char k3By6ConnectThree[] = "3-by-6 Connect "
                                         "Three";
