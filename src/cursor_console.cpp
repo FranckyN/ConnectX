@@ -9,9 +9,9 @@
 #include <iostream>
 #include <memory>
 #include <string>
+#include <thread>
 #include "constants.h"
 #include "cursor_console.h"
-#include <thread>
 
 using namespace Constants;
 
@@ -36,6 +36,13 @@ void FlashBeep(int n) {
     if(OK == beep()) {
       flash();
     }
+    std::this_thread::sleep_for(std::chrono::milliseconds(500));
+  }
+}
+
+void Beep(int n) {
+  while(n--) {
+    beep();
     std::this_thread::sleep_for(std::chrono::milliseconds(500));
   }
 }

@@ -27,5 +27,6 @@ void ClearRemainingWindow();
 void ClearWindowScreen();
 void GetCharacter(std::string&, int = Constants::kLimitNamePlayerMax);
 void FlashBeep(int n);
+void Beep(int n);
 }  // namespace UI
 #endif

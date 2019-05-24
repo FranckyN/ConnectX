@@ -205,8 +205,8 @@ void ConnectFour::DrawBoard() {
   if(last_move_ >= 0 && b_played_) {
     DropChip();
     if(model_board_->GetCurrentState() == Core::States::Win) {
-    UI::FlashBeep(2);
-  }
+      UI::Beep(2);
+    }
   }
   board_->DrawBoard();
 }
